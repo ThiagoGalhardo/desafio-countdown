@@ -27,12 +27,10 @@ Criar uma página simulando um contador regressivo utilizando diversas técnicas
     - ✔️ [VsCode](https://code.visualstudio.com/download);
     - ✔️ [Git](https://git-scm.com/)
 
-<br>
-
 ## Clonar o repositório
 ```bash
 $ git clone https://github.com/ThiagoGalhardo/desafio-countdown.git
 ```
 
 
-## 😃 Gostou? me siga no -> [Likedln](https://www.linkedin.com/in/thgalhardo/)
+## 😃 Gostou? me siga no -> [Linkedin](https://www.linkedin.com/in/thgalhardo/)
