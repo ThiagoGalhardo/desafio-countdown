@@ -20,17 +20,17 @@ section {
 }
 
 .top_image {
-    background: url('/images/top-image.svg');
+    background: url('../images/top-image.svg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 140px;
+    height: 120px;
     position: absolute;
     top: 0;
 }
 
 .bottom_image {
-    background: url('/images/bottom-image.svg');
+    background: url('../images/bottom-image.svg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
