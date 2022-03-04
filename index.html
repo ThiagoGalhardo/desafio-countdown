@@ -8,8 +8,14 @@
     <title>Countdown</title>
 </head>
 
-<body>
+<body id="body">
     <div class="top_image"></div>
+
+
+    <label class="switch">
+        <input id="check"  type="checkbox">
+        <span id="slider"  class="slider round"></span>
+      </label>
 
     <section>
 
@@ -25,7 +31,7 @@
 
             </div>
 
-            <div class="countdown-infos">
+            <div id="countInfo" class="countdown-infos">
                 <p id="day_time">00</p>
                 <p>:</p>
                 <p id="hour_time">00</p>
@@ -36,7 +42,7 @@
             </div>
 
             <div class="subscribe">
-                <p>Inscreva-se para saber mais sobre o lançamento</p>
+                <p id="subscribe-text">Inscreva-se para saber mais sobre o lançamento</p>
                 <div class="button-sub">
                     <button>Inscreva-se</button>
                 </div>
@@ -51,5 +57,8 @@
 
     <script src="./script.js "></script>
 </body>
+
+
+
 
 </html>

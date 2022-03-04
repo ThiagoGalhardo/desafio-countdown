@@ -18,10 +18,56 @@ const countdown = () => {
     document.getElementById("minute_time").innerHTML = textMinute;
     document.getElementById("second_time").innerHTML = textSecond;
 
-    console.log(textDay);
-    console.log(textHour);
-    console.log(textMinute);
-    console.log(textSecond);
 }
 
 setInterval(countdown, 1000);
+
+
+
+
+var slider = document.getElementById("slider");
+
+function switchIt() {
+    var box = document.getElementById("check");
+
+    if (box.checked) {
+        console.log("isChecked")
+
+        slider.style.backgroundImage = "url('../images/sun.svg')";
+        slider.style.backgroundPosition = "10%";
+
+        themeDark()
+
+
+    } else {
+        console.log("noChecked")
+
+        slider.style.backgroundImage = "url('../images/moon.svg')";
+        slider.style.backgroundPosition = "90%";
+        themeLight()
+    }
+}
+
+
+setInterval(switchIt, 500);
+
+
+function themeDark() {
+    var backGroundColor = document.getElementById("body");
+    backGroundColor.style.backgroundColor = "var(--color-dark)";
+    document.getElementById("countInfo").style.color = "white";
+    var subText = document.getElementById("subscribe-text");
+    subText.style.color = "white";
+}
+
+
+function themeLight() {
+    var backGroundColor = document.getElementById("body");
+    backGroundColor.style.backgroundColor = "white";
+    var subText = document.getElementById("subscribe-text");
+    subText.style.color = "white";
+    document.getElementById("countInfo").style.color = "var(--color-gray-dark)";
+
+    var subText = document.getElementById("subscribe-text");
+    subText.style.color = "var(--color-gray-dark)";
+}
