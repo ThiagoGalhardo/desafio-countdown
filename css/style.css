@@ -102,7 +102,7 @@ h1 {
 }
 
 .switch {
-    position: relative;
+    position: absolute;
     display: inline-block;
     width: 75px;
     height: 34px;
@@ -129,6 +129,7 @@ h1 {
     background-image: url(../images/moon.svg);
     background-repeat: no-repeat;
     background-position: 90%;
+    z-index: 999;
 }
 
 .slider:before {
@@ -163,4 +164,22 @@ input:checked+.slider {
 
 input:focus+.slider {
     box-shadow: 0 0 1px var(--color-dark);
+}
+
+@media(max-width: 1000px) {
+    .image img {
+        display: none;
+    }
+}
+
+@media(max-width: 760px) {
+    .bottom_image {
+        height: 100px;
+    }
+    .switch {
+        left: 80%;
+    }
+    .slider:before {
+        right: 20;
+    }
 }
