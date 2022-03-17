@@ -25,7 +25,7 @@ Figma utilizado como base: [Figma](https://www.figma.com/file/te3ff0Z6zQS8byAytm
 ### Screenshot
 
 <h1 align="center">
-<img alt="demo" title="Screenshot" src="countdown.gif" height="900" />
+<img alt="demo" title="Screenshot" src="countdown.gif" height="450" />
 </h1>
 
 ### Links
