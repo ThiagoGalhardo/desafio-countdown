@@ -40,6 +40,7 @@ Figma utilizado como base: [Figma](https://www.figma.com/file/te3ff0Z6zQS8byAytm
 
 - [x] Theme Switcher
 - [x] Dark Theme
+- [x] Animação na troca do tema
 
 
 ### Pré Requisitos
