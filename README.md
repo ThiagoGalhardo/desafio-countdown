@@ -8,7 +8,7 @@
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#features">Features</a> •
  <a href="#pré-requisitos">Pré Requisitos</a> •
- <a href="#clonar-repositório">Clonar repositório</a> •
+ <a href="#clonar-o-repositório">Clonar repositório</a> •
  <a href="#autor">Autor</a>
 </p>
 
