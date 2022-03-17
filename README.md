@@ -1,7 +1,6 @@
 <h1 align="center">Desafio "Countdown"</h1>
 
-<p align="center">Esse é o projeto criado como desafio da [Rocketseat](https://www.rocketseat.com.br/)</p>
-
+<p align="center">Esse é o projeto criado como desafio da <a href="https://www.rocketseat.com.br/">Rocketseat</a> 
 <p align="center">
  <a href="#desafio">Desafio</a> •
  <a href="#screenshot">Screenshot</a> •
@@ -31,7 +30,7 @@ Figma utilizado como base: [Figma](https://www.figma.com/file/te3ff0Z6zQS8byAytm
 
 - Live Site URL: [Live Site](https://thiagogalhardo.github.io/desafio-countdown/)
 
-### 🚀 Projeto criado com as seguintes tecnologias:
+### Tecnologias:
 
 - ✔️ HTML
 - ✔️ CSS
@@ -43,7 +42,7 @@ Figma utilizado como base: [Figma](https://www.figma.com/file/te3ff0Z6zQS8byAytm
 - [x] Dark Theme
 
 
-### ⚙ Pré Requisitos
+### Pré Requisitos
 
 - Antes de iniciar o projeto, você vai precisar das seguintes ferramentas: 
 
@@ -62,6 +61,5 @@ $ git clone https://github.com/ThiagoGalhardo/desafio-countdown.git
 Feito com 💜 por Thiago Galhardo 👋
 
 [![LinkedIn Badge](https://img.shields.io/badge/-Thiago_Galhardo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thgalhardo/)](https://www.linkedin.com/in/thgalhardo/)
-
 [![GitHub Badge](https://img.shields.io/badge/-Thiago_Galhardo-gray?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/ThiagoGalhardo/)](https://github.com/thiagogalhardo/)
 
